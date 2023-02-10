@@ -18,7 +18,7 @@ async function registrarUsuario(){
         return;
     }
 
-    const request = await fetch('http://localhost:8080/api/usuarios', {
+    const request = await fetch('https://taller-torno-fumero-erp.ew.r.appspot.com/api/usuarios', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

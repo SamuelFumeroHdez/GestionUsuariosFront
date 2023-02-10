@@ -50,7 +50,7 @@ async function  eliminarUsuario(id){
         return;
     }
 
-    const request = await fetch('http://localhost:8080/api/usuarios/' + id, {
+    const request = await fetch('https://taller-torno-fumero-erp.ew.r.appspot.com/api/usuarios/' + id, {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
